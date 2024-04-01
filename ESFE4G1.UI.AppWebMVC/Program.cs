@@ -1,5 +1,7 @@
-var builder = WebApplication.CreateBuilder(args);
 
+using ESFE4G1.LogicaDeNegocio;
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddBLDependecies(builder.Configuration);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 

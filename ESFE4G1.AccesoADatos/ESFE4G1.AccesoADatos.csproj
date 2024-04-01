@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE4G1.EntidadesNegocio\ESFE4G1.EntidadesNegocio.csproj" />
+  </ItemGroup>
+
 </Project>
